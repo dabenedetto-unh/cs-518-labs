@@ -1,7 +1,6 @@
 ## Lab 0
 
 * Find your group
-    - [groups](https://universitysystemnh-my.sharepoint.com/:x:/g/personal/dabenedetto_usnh_edu/IQA4efDu3JqlT4D4lX0SmEvIARBHSB13_4n6S1c7UZGDCXw?e=VIWQtS)
 * everyone:
     - generate SSH keys and add to Gitlab
 * One team member (Owner)
