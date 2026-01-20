@@ -49,7 +49,7 @@ Review pymongo tutorial(s) for key concepts:
     - Update: Modifying existing records in a database (update)
     - Delete: Removing existing records from a database (delete)
 
-## Prep reading / response
+<!-- ## Prep reading / response
 
 The goal is to ensure that you are prepared for the lab.  Responses should be 150 to 300 words (about 2–3 short paragraphs).
 
@@ -64,7 +64,7 @@ When you submit a response with code, you should use markdown with code blocks (
 
 ```python
 print("Hello, World!")
-```
+``` -->
 
 ## FAQ
 

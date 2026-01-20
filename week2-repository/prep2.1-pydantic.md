@@ -1,4 +1,4 @@
-# Prep 1.2 pydantic
+# Prep 2.1 pydantic
 
 (pydantic should already have been installed last week from requirements.txt)
 
@@ -8,7 +8,11 @@ Pydantic:
 * https://docs.pydantic.dev/latest/concepts/models/ 
     - Read: Basic Model Usage; Data Conversion; and Error Handling.
 
-## Prep reading / response
+## Prep 2.2 db / pymongo
+
+You can combine these two prep assignments into one.
+
+## Prep reading / response requirements
 
 The goal is to ensure that you are prepared for the lab.  Responses should be 150 to 300 words (about 2–3 short paragraphs).
 

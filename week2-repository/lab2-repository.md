@@ -43,19 +43,13 @@ and these tests:
 
 ## Generating the response
 
-Options:
+Some options:
 
 * (A) use the basic chat interface.  I've been using Gemini, but you are free to use others.
 * (B) use an API.  Gemini API has a free tier, but you need to provide a credit card.
-* (C) "build mode."  Google AI Studio defaults to React / Typescript.  
+* (C) use integrated IDE tools, e.g. VSCode Copilot or Roo.
 
-Note:
-
-* I've been using the API, which IMO is more powerful than the chat interface and gives you more control than Build Mode.
-
-Ref:
-
-* https://aistudio.google.com/ 
+Disclaimer: IDE tools are powerful but can mangle your codebase.
 
 ## Parsing the response
 
@@ -80,8 +74,15 @@ Documentation:
 * please review the unit tests.
     - it is very likely that your tests use unittest.mock.  What is mocking?  why would you use mocking in unit testing?
 
-Submission:
+## Submission:
 
-* Submit documentation and all assets in zip file.
+Source:
+
+* Push updated source code to Gitlab.
+* All team members should pull the updates.
+
+Docs:
+
+* Add docs to "docs/lab2-repository/"
 
 
