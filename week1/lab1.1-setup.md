@@ -6,7 +6,10 @@
     - generate SSH keys and add to Gitlab
 * One team member (Owner)
     - creates project on Gitlab
+        - uncheck "Initialize repository with a README"
     - initialize repo with directory structure below
+        - follow the instructions under "Push an existing folder"
+        - the existing_folder is project_root (below)
     - adds prof and TA (Maintainers)
     - adds team members (Developers)  
 * everyone 
@@ -16,18 +19,19 @@
 
 ## Repo structure
 
-* docs/
-* src/
-    - user_service/
-    - user_api/
-    - <APP_NAME>/
-    - requirements.txt
-* tests/
-    - test_user_service/
-    - test_user_api/
-    - test_<APP_NAME>/
-    - text_example.py
-* pyproject.toml
+* project_root/
+    * docs/
+    * src/
+        - user_service/
+        - user_api/
+        - <APP_NAME>/
+        - requirements.txt
+    * tests/
+        - test_user_service/
+        - test_user_api/
+        - test_<APP_NAME>/
+        - text_example.py
+    * pyproject.toml
 
 ## Notes
 
