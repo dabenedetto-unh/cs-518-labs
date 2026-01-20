@@ -19,8 +19,8 @@
 Additional information:
 
 * [setup project](notes/1.1_setup_project.md)
-* [setup repo](<notes\1.1.2 setup repo.md>)
-* [setup testing](<notes\1.1.3 setup testing.md>)
+* [setup repo](notes/1.1.2_setup_repo.md)
+* [setup testing](notes/1.1.3_setup_testing.md)
 
 ## Repo structure
 
