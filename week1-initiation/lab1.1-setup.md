@@ -1,4 +1,4 @@
-## Lab 0
+## Lab 1.1
 
 * Find your group
 * everyone:

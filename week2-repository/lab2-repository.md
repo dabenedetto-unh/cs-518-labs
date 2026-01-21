@@ -1,75 +1,84 @@
 # Mapper and repository
 
-For the first part of this course, we will be using this architecture and stack:
+For the first part of this course, we will be developing a user management / authentication package.
 
-* Architecture:
-    * monolithic architecture
-    * controller-service-repository pattern for backend
-* Tech stack:
-    * full-stack python
-    * flask for app (with basic jinja templates)
-    * pydantic for validation
-    * pymongo / mongoDB for database
+The package will use:
+* pydantic for validation
+* pymongo / mongoDB for database
 
-And developing this epic:
+If you didn't set up the repo directory structure last week, please do so now.
 
-* User management / authentication
+* [setup](..\week1-initiation\lab1.1-setup.md)
+
+Everyone on the team should have pulled the latest code.
+
+* cd to project root
+* run: ```git pull```
 
 ## Instructions
 
+### Gettting Copilot Pro for free
+
+* [Apply to GitHub Education as a student](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student)
+
 ### Preparing the prompt
 
-Work in different pairs or small groups.
+Getting started:
 
-Create two files:
+* Work individually at first.  
+* In "docs/prompts/", create these files: 
+    - "initial-prompt.md"
+    - "prompt-log.md"
 
-* context.txt
-* prompt.txt
-
-In the context file, you should provide information:
+Provide context information:
 
 * about your app and the Epic.  
 * about the architecture and tech stack.
 
-In the prompt, you should ask for these files in JSON format:
+Ask for these assets to be generated in your src/user_service directory:
 
-* models: pydantic models for users
-* mapper: maps between pydantic models and python dicts
-* repository: takes users, converts to dict, and inserts into database
-* exceptions: custom exceptions raised by the repository
+* models.py: pydantic models for users
+* mapper.py: maps between pydantic models and python dicts
+* repository.py: takes users, converts to dict, and inserts into database
+* exceptions.py: custom exceptions raised by the repository
 
-and these tests:
+and these tests in your tests/test_user_service:
 
-* test_mapper: unit tests for mapper
-* test_repository: unit tests for repository
+* test_mapper.py: unit tests for mapper
+* test_repository.py: unit tests for repository
 
-### Generating the response
+### Generating the code
 
-Some options:
-
-* (A) use the basic chat interface.  I've been using Gemini, but you are free to use others.
-* (B) use an API.  Gemini API has a free tier, but you need to provide a credit card.
-* (C) use integrated IDE tools, e.g. VSCode Copilot or Roo.
-
-Disclaimer: IDE tools are powerful but can mangle your codebase.
-
-### Parsing the response
-
-you will need to parse the response to create the files. 
-You can do this with a script.
-
-* prompt: "please provide a script that will parse a json file with filenames and contents and create the files"
+* Open the chat panel:
+    - View > Chat, OR
+    - Ctrl + Alt + I
+* With your prompt file open, you should see a button in the lower-right with a plus sign that allows you to "Enable current file context".
+    - Ask Agent to carry out the instructions in the prompt file.
 
 ### Testing
 
-Finally, you will need to setup testing in your IDE.
+If you haven't done so already, you need to setup testing in your IDE.
 
-* https://code.visualstudio.com/docs/debugtest/testing
+* [setup testing](..\week1-initiation\notes\1.1.3_setup_testing.md)
+
+If you have any errors loading tests, you'll need to resolve them.
+
+If not:
+* Run test_user_mapper.py using the IDE integration.
+* If that works, run test_user_repository.py
+
+If any tests fail, you'll have to resolve the issues through a combination of 
+* manual intervention / coding
+* using a web/chat AI interface 
+* using copilot
 
 ## Reporting
 
-Source code and tests should be added to your Gitlab repository (in "src/user_service" and "tests/user_service" respectively)
-All other documentation should be added to a lab report document, which is added to your "docs" directory.
+<!-- Source code and tests should be added to your Gitlab repository (in "src/user_service" and "tests/user_service" respectively) -->
+
+Submission:
+* Documentation should be added to a lab report document, which is added to your "docs" directory.
+* You will also submit your lab report on Canvas.
 
 **Lab report: a single document containing:**
  
