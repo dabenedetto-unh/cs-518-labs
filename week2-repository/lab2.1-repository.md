@@ -8,7 +8,7 @@ The package will use:
 
 If you didn't set up the repo directory structure last week, please do so now.
 
-* [setup](..\week1-initiation\lab1.1-setup.md)
+* [setup](../week1-initiation/lab1.1-setup.md)
 
 Everyone on the team should have pulled the latest code.
 
@@ -59,7 +59,7 @@ and these tests in your tests/test_user_service:
 
 If you haven't done so already, you need to setup testing in your IDE.
 
-* [setup testing](..\week1-initiation\notes\1.1.3_setup_testing.md)
+* [setup testing](../week1-initiation/notes/1.1.3_setup_testing.md)
 
 If you have any errors loading tests, you'll need to resolve them.
 

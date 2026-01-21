@@ -11,13 +11,17 @@
 * everyone 
     - clone the group project
     - make some changes, stage, commit, push
+    - pull code
     - trigger and resolve merge conflicts
 
 Additional information:
 
 * [setup project - SSH keys](notes/1.1_setup_project.md)
 * [setup repo - cloning and pushing changes](notes/1.1.2_setup_repo.md)
-* [setup IDE - testing](notes/1.1.3_setup_testing.md)
+
+<!-- This can be done when we do the Mapper:
+
+* [setup IDE - testing](notes/1.1.3_setup_testing.md) -->
 
 ## Repo structure
 
