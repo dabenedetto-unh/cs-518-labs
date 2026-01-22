@@ -45,7 +45,7 @@ pip install certifi
 
 ## Step 4: Submission Requirements
 
-Your response should be **150 to 300 words** (roughly 2–3 short paragraphs) and submitted in Markdown or a Jupyter Notebook.
+Your response should be **150 to 300 words** (roughly 2–3 short paragraphs) and submitted to Canvas.
 
 ### Components:
 
