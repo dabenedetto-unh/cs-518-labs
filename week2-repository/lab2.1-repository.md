@@ -15,8 +15,8 @@ Group work:
 
 For more information, see:
 
-* [workflow](notes\workflow.md)
-* [reporting](notes\reporting.md)
+* [workflow](notes/workflow.md)
+* [reporting](notes/reporting.md)
 
 Individual reporting via. exit tickets.
 
