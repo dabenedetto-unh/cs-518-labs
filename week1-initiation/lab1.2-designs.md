@@ -2,9 +2,15 @@
 
 Instructions:
 
-* Each discussion should be documented with a few paragraphs.
-* Save your work in a markdown (.md) file in the "docs" folder in your repo.
-* You will also submit a link to this file in Canvas.
+* see here for more info about reporting:
+    - [reporting](notes/reporting.md)
+
+* Your work will go here:
+    * Save your process docs in "docs/process/" directory.
+    * Save final planning and design file(s) in markdown (.md) in the "docs/designs" folder in your repo.
+    
+* You will also submit to Canvas:
+    * URL for your repo
 
 After all of your work is pushed to the remote repo, everyone on your team should sync their local repos:
 
