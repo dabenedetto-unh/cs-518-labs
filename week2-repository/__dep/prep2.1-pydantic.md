@@ -4,7 +4,7 @@
 
 Pydantic:
 * https://docs.pydantic.dev/latest/ 
-    - Read "Get Started" up to and including "Help with Pydantic"
+    - Read "Get Started" up to and including "Installation"
 * https://docs.pydantic.dev/latest/concepts/models/ 
     - Read: Basic Model Usage; Data Conversion; and Error Handling.
 

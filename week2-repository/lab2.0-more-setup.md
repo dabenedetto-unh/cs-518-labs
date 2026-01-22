@@ -1,11 +1,6 @@
 ## Instructions
 
-## MongoDB
-
-* Install MongoDB
-* Setup a MongoDB Atlas account and create a free cluster
-
-### Gettting Copilot Pro for free
+### Getting Copilot Pro for free
 
 * [Apply to GitHub Education as a student](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student)
 
