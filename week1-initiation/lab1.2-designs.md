@@ -6,9 +6,9 @@ Instructions:
     - [reporting](notes/reporting.md)
 
 * Your work will go here:
-    * Save your process docs in "docs/process/" directory.
+    * Save your process docs in "docs/reports/" directory.
     * Save final planning and design file(s) in markdown (.md) in the "docs/designs" folder in your repo.
-    
+
 * You will also submit to Canvas:
     * URL for your repo
 
