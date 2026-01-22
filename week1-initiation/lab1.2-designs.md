@@ -6,6 +6,10 @@ Instructions:
 * Save your work in a markdown (.md) file in the "docs" folder in your repo.
 * You will also submit a link to this file in Canvas.
 
+After all of your work is pushed to the remote repo, everyone on your team should sync their local repos:
+
+```git pull```
+
 ## Part 1: Planning
 
 Get into pairs or groups of 3.
@@ -41,11 +45,11 @@ base64_string = base64_bytes.decode("ascii")
 diagrams_out[name] = f"https://mermaid.ink/img/{base64_string}"
 ```
 
-## Stack
+<!-- ## Stack
 
 2.b. Tech stack
 
 * What is a tech stack?
 * Ask AI to discuss pros / cons of various tech stacks.
-* Discuss with your peers.
+* Discuss with your peers. -->
 

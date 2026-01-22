@@ -1,4 +1,15 @@
-## Demo 1: More config
+## Instructions
+
+## MongoDB
+
+* Install MongoDB
+* Setup a MongoDB Atlas account and create a free cluster
+
+### Gettting Copilot Pro for free
+
+* [Apply to GitHub Education as a student](https://docs.github.com/en/education/about-github-education/github-education-for-students/apply-to-github-education-as-a-student)
+
+## Requirements and local package install
 
 * Setup directory structure and a few files
     - src/requirements.txt
@@ -12,9 +23,6 @@
     - pip install -r src/requirements.txt
     - pip install -e .
 
-## Demo 2: generating the initial codebase
+## Setup testing
 
-* This is a critical first step. 
-* After this, the next couple steps should be a lot easier.
-
-
+* Setup testing and run test_hello with your IDEs integrated testing.

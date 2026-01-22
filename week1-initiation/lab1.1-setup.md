@@ -23,7 +23,7 @@ Additional information:
 
 * [setup IDE - testing](notes/1.1.3_setup_testing.md) -->
 
-## Repo structure
+<!-- ## Repo structure
 
 * project_root/
     * docs/
@@ -37,11 +37,12 @@ Additional information:
         - test_user_api/
         - test_<APP_NAME>/
         - text_example.py
-    * pyproject.toml
+    * pyproject.toml -->
 
 ## Notes
 
 * If possible, the project owner should be the person who is most familiar with Git.
-* You can come up with your APP_NAME later, you don't need to create all of these directories now.
+
+<!-- * You can come up with your APP_NAME later, you don't need to create all of these directories now.
 * requirements.txt and pyproject.toml are provided
-* "tests" and all of its subdirectories should contain empty __init__.py files.
+* "tests" and all of its subdirectories should contain empty __init__.py files. -->

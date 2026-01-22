@@ -1,0 +1,69 @@
+## Lab Workflow: Git Branching & Syncing
+
+### 1. Start of Lab: Get Ready
+
+Before you start coding, make sure you are on the `main` branch and have the latest version of the code.
+
+```bash
+git checkout main
+git pull origin main
+
+```
+
+### 2. During Lab: Work in Your Own Space
+
+To avoid messy conflicts, **never** code directly on `main`. Create your own branch:
+
+```bash
+# Replace 'your-name' with your actual name
+git checkout -b your-name-task
+
+```
+
+*Now, write your code and save your progress:*
+
+```bash
+git add .
+git commit -m "Completed the logic for the lab task"
+
+```
+
+### 3. End of Lab: Sharing the "Winning" Code
+
+Once the instructor chooses a version to keep, the "chosen" student will push their branch and merge it.
+
+**The Chosen Student runs:**
+
+```bash
+# 1. Push your branch to the cloud
+git push origin your-name-task
+
+# 2. Move to the main branch and merge your work
+git checkout main
+git merge your-name-task
+
+# 3. Update the shared repo for everyone else
+git push origin main
+
+```
+
+### 4. Everyone Else: Syncing Up
+
+Once the chosen code is pushed to `main`, everyone else needs to grab it to stay in sync:
+
+```bash
+# Switch back to the main branch
+git checkout main
+
+# Pull the new "official" code
+git pull origin main
+
+```
+
+---
+
+### 💡 Quick Tips
+
+* **Check your status:** Not sure where you are? Run `git status`.
+* **See your branches:** Run `git branch` to see which branch you are currently standing on.
+* **Stuck?** If Git says you have "Unscheduled changes," make sure you `commit` or `stash` your work before switching branches.
