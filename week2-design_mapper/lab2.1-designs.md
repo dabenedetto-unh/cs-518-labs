@@ -1,4 +1,19 @@
 
+## Submission
+
+* Reporting:
+    - see here for more info about reporting: [reporting](notes/reporting.md)
+    - for this lab, you only need to do parts 2 (prompt log) and 3 (discussion summary)
+* Saving work to Gitlab:
+    * Add final planning document(s) in markdown (.md) or pdf to the "docs/planning/" folder.
+    * Add your lab report to "docs/reports/" directory.
+* Canvas submission:
+    * URL for your repo
+
+After all of your work is pushed to the remote repo, everyone on your team should sync their local repos:
+
+```git pull```
+
 ## Part 2: Architectural Design
 
 2.a. Architecture

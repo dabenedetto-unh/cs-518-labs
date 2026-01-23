@@ -1,4 +1,4 @@
-# Mapper and repository
+# Mapper
 
 Individual work:
 
@@ -15,8 +15,8 @@ Group work:
 
 For more information, see:
 
-* [workflow](notes/workflow.md)
-* [reporting](../week1-initiation/notes/reporting.md)
+* [workflow](../general/workflow.md)
+* [reporting](../general/reporting.md)
 
 Individual reporting via. exit tickets.
 
@@ -55,7 +55,7 @@ We will all use the same one and see how our results compare.
     * models.py: pydantic models for User.
     * mapper.py: maps between pydantic models and python dicts.
 * tests/
-    * test_mapper.py: unit tests for mapper.
+    * test_mapper.py: unit tests for Mapper.
 ```
 
 ### Generating the code

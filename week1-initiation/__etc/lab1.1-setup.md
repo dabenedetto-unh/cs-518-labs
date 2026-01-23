@@ -16,8 +16,8 @@
 
 Additional information:
 
-* [setup project - SSH keys](notes/1.1_setup_project.md)
-* [setup repo - cloning and pushing changes](notes/1.1.2_setup_repo.md)
+* [setup project - SSH keys](1.1_setup_project.md)
+* [setup repo - cloning and pushing changes](1.1.2_setup_repo.md)
 
 <!-- This can be done when we do the Mapper:
 

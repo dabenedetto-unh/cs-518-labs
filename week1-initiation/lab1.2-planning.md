@@ -2,12 +2,13 @@
 
 Instructions:
 
-* see here for more info about reporting:
-    - [reporting](notes/reporting.md)
+* Reporting:
+    - see here for more info about reporting: [reporting](../general/reporting.md)
+    - for this lab, you only need to do parts 2 (prompt log) and 3 (discussion summary)
 
 * Your work will go here:
-    * Save your process docs in "docs/reports/" directory.
     * Save final planning document(s) in markdown (.md) or pdf in the "docs/planning/" folder in your repo.
+    * Save your lab report in "docs/reports/" directory.
 
 * You will also submit to Canvas:
     * URL for your repo
