@@ -41,7 +41,3 @@ Follow these steps to integrate your tests with the VS Code IDE:
 
 * **Integrated Testing**: You can run all tests from the Testing panel or click the **play icons** that appear next to individual test functions in your code.
 * **Regression Testing**: Use these tools to ensure your `test_hello` and other unit tests pass after any changes.
-
----
-
-**Would you like me to help you write the `pyproject.toml` file or a basic unit test for your `hello.py` service?**

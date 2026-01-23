@@ -24,6 +24,7 @@ Individual reporting via. exit tickets.
 
 Getting started:
 
+* Make sure that your IDE is open at the root of your project
 * Make sure you're on your own branch for lab 2. 
 * In "docs/prompts/", create these files: 
     - "lab2-prompt.md"
@@ -46,7 +47,10 @@ We will all use the same one and see how our results compare.
 
 * Create models and a mapper for User.
 * A User has:
-    - basic fields
+    - id: str
+    - username
+    - password
+    - email 
     - role: "admin" or "user" 
 
 # Output
