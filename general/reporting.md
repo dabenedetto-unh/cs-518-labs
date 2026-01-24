@@ -1,48 +1,31 @@
-## Individual reporting
+# Group Reporting
 
-Exit tickets:
+The submission consists of:
+* The code and tests
+* The report
 
-* This will be done via web form near the end of each class.
+## The code and tests
 
-Traffic light:
-* Green: What is one concept from today that you feel confident explaining to a peer?
-* Yellow: What is one part of today’s lesson that is still a bit fuzzy?
-* Red: What is the biggest "blocker" preventing you from finishing today’s task?
+* **Source code:** Submitted to your Gitlab repository in the "src" directory (appropriate subdirectory)
+* **Tests:** Submitted to Gitlab repo in the "tests" directory (appropriate subdirectory)
 
-<!-- Compare to the prep:
-* The "Pivot": specific concept; how it differs from how they previously thought.
-* The "Technical Connection": How does this concept apply to the upcoming lab
-* The "Blocker": One specific question or "muddiest point" they want addressed before the lab starts. -->
+## The lab report
 
+The lab report includes:
 
-## Reporting
-
-Submission:
-* Documentation should be added to a lab report document, which is added to your "docs" directory.
-* You will also submit your lab report on Canvas.
-
-**Lab report: a single document containing:**
- 
-* **Verification:** A screenshot of your VSCode "Testing" panel showing all tests passed.
-* **Prompt evolution log**
+* **Test coverage / verification** In VS Code, A visual confirmation that all tests passed (the "Green Checkmarks").  
+* **Use of AI / prompt log** information about the AI tools, models, and prompts you used.  
 * **Group discussion synthesis**
-* **Other questions.**
 
-In addition to adding to your repo, please submit the report to Canvas.
-
-### 1. The "Final" Source Code & Test Report
-
-* **Source code:** Submitted to your Gitlab repository in the "src/user_service" directory
-* **Tests:** Submitted to Gitlab repo in the "tests/test_user_service" directory 
-* **A screenshot of the Test Explorer:** A visual confirmation that all tests passed (the "Green Checkmarks").  
-
-### 2. The "Prompt Evolution" Log
+### Use of AI / Prompt log
 
 * **The initial prompt:** What they started with.
-* **The iterations:** If the first code failed the tests, what did they change in the prompt to fix it?
+* **The iterations:** 
+    - If the first code failed the tests, what did they change in the prompt to fix it?
+    - Or, it if worked, a reflection on *why* they think it worked first try (e.g., "We used a very specific template" or "The function was simple enough for the model's training data").
 * **Reflection:** A 2-3 sentence summary of *why* the AI failed initially (e.g., "The AI didn't handle the empty list case correctly, so I had to explicitly mention edge cases").
 
-### 3. The Group Discussion Synthesis
+### The Group Discussion Synthesis
 
 "Code Commentary." Table or list.  For each function:
 
@@ -50,3 +33,31 @@ In addition to adding to your repo, please submit the report to Canvas.
 * What the Test specifically checked
 * One thing the group learned/noticed
 
+## Submission and grading
+
+* **Source code and tests:** Code and tests should be pushed to your Gitlab repository
+* **Reports:** Lab documentation should be consolidated and submitted to Canvas:
+    - Lab1: Submit the repo URL
+    - Lab2 and beyond: submit the lab report
+
+### **Grading Rubric (20 pts Total)**
+
+**1. Technical Verification (5 pts)**
+
+* **Requirement:** Source code in `/src`, tests in `/tests`, and a VSCode screenshot showing all tests passed.
+* **Deductions:** (-1 to -2) for missing/wrong directories; (-3) if tests are failing or screenshot is missing.
+
+**2. Prompt Evolution Log (5 pts)**
+
+* **Requirement:** Documentation of the initial prompt, any iterative changes, and a 2-3 sentence reflection on the AI’s performance.
+* **Deductions:** (-1 to -2) if the reflection is too brief or generic; (-3) if the step-by-step prompt history is missing.
+
+**3. Group Discussion Synthesis (5 pts)**
+
+* **Requirement:** A table or list for every function covering: Function Name, Test Details, and one group insight/observation.
+* **Deductions:** (-1) for each missing function; (-2) if the "lessons learned" are omitted or repetitive.
+
+**4. Submission & Documentation (5 pts)**
+
+* **Requirement:** A single consolidated report added to the GitLab `/docs` folder AND submitted to Canvas.
+* **Deductions:** (-2) if submitted to only one platform; (-1 to -2) for poor formatting or missing "Other Questions" responses.
