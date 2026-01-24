@@ -20,15 +20,14 @@ To complete this lab, you must submit your work to two locations:
 Your final report must be a single consolidated document containing the following:
 
 * **Test Verification:** A screenshot of the VS Code "Testing" panel showing green checkmarks for all passing tests.
-* **Use of AI / Prompt Log:** * **Initial Prompt:** The very first prompt used.
-* **Iterations:** If the code failed, document the changes made to fix it. If it worked immediately, provide a reflection on why (e.g., specific template used or simplicity of the function).
-* **Reflection:** A 2–3 sentence summary explaining why the AI initially failed or succeeded.
-
-
+* **Use of AI / Prompt Log:** 
+    * **Initial Prompt:** The very first prompt used.
+    * **Iterations:** If the code failed, document the changes made to fix it. If it worked immediately, provide a reflection on why (e.g., specific template used or simplicity of the function).
+    * **Reflection:** A 2–3 sentence summary explaining why the AI initially failed or succeeded.
 * **Group Discussion Synthesis ("Code Commentary"):** A table or list for **each function** including:
-* Function name.
-* What the test specifically checked.
-* One thing the group learned or noticed.
+    * Function name.
+    * What the test specifically checked.
+    * One thing the group learned or noticed.
 
 ## 3. Grading Rubric (20 pts Total)
 
