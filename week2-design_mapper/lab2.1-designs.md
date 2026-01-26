@@ -16,7 +16,7 @@
     * Add your lab report to "docs/reports/" directory.
         - in addition to regular requirements, the report should contain a link to your final design document AT THE TOP.
 * Canvas submission:
-    * URL for your repo
+    * Submit your lab report.
 
 After all of your work is pushed to the remote repo, everyone on your team should sync their local repos:
 
