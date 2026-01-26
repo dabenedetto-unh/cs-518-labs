@@ -1,16 +1,16 @@
 # Group Lab Reporting & Submission Guide
 
-## 1. Submission Overview
+## Submission Overview
 
-To complete this lab, you must submit your work to two locations:
+To complete your labs, you must submit your work to two locations:
 
 * **GitLab Repository:** All source code, tests, and a copy of the report in the `/docs` folder.
 * **Canvas:** The consolidated lab report document.
     * *Note: For Lab 1, submit your repository URL. For Lab 2 and beyond, submit the document itself.*
 
-## 2. Technical Requirements
+## Requirements
 
-### Source Code & Tests
+### Product
 
 Planning and design labs:
 * Submit your documents to 'docs' directory
@@ -19,7 +19,7 @@ Development labs:
 * **Source Code:** Must be submitted to the `src` directory (in the appropriate subdirectory).
 * **Tests:** Must be submitted to the `tests` directory (in the appropriate subdirectory).
 
-### The Lab Report
+### Process:  The Lab Report
 
 Your final report must be a single consolidated document containing the following:
 (how did you create the code; how do you know it works; discussion / reflections)
