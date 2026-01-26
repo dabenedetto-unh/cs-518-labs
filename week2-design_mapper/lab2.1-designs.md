@@ -5,7 +5,7 @@
     - see here for more info about reporting: [reporting](notes/reporting.md)
     - for this lab, you only need to do parts 2 (prompt log) and 3 (discussion summary)
 * Saving work to Gitlab:
-    * Add final planning document(s) in markdown (.md) or pdf to the "docs/planning/" folder.
+    * Add final design document(s) in markdown (.md) or pdf to the "docs/planning/" folder.
     * Add your lab report to "docs/reports/" directory.
 * Canvas submission:
     * URL for your repo
