@@ -1,9 +1,11 @@
 # Lab 3: Repository
 
-Usual reporting and workflow requirements apply:
-
-* [workflow](../general/workflow.md)
-* [reporting](../general/reporting.md)
+* In this lab, you will:
+    * implement Repository class, custom exceptions, and tests
+    * document and report your work
+* For more information, see:
+    * [reporting](../general/reporting.md)
+    * [workflow](../general/workflow.md)
 
 ## About the repository
 
@@ -28,15 +30,27 @@ With copilot, you should generate:
 * src/user_service/exceptions.py - defines custom exceptions
 * tests/test_user_service/test_repository.py - unit tests for Repository
 
-## Notes
+## Submission and rubric
 
-Notes:
+## Adding your work to Gitlab
 
-- DB / driver:
-    - the default for this course is pymongo.
-    - you are also free to user "motor," which is like pymongo but asynchronous.
-- test framework:
-    - default is unittest
-    - you are also free to use pytest.
-- **disclaimer:** 
-    - demos will be given using the defaults
+* One team member pushes the code and tests to the group repo,
+* After all of your work is pushed to the remote repo, everyone on your team should sync their local repos:
+    - ```git pull```
+
+### Submission
+
+* Consolidate your prompts and discussion in a lab report:
+* Push the lab report to your group repo
+* Submission (Canvas):
+    - For this lab, you should submit your report.
+
+### Rubric
+
+- gitlab:
+    - individual branches: pts off for individual if they don't have this
+    - group solution: models, tests and mapper
+- report
+    - prompt log
+    - verification / testing
+    - discussion summary

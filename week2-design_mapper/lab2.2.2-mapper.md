@@ -1,5 +1,12 @@
 # Mapper
 
+In this lab, you will:
+
+* implement models, source code, and tests for a Mapper.
+* document and report your work (lab2_2-reporting.md)
+
+## Workflow for individual and group work
+
 Individual work:
 
 * Individuals will work on their own branch
@@ -16,21 +23,18 @@ Group work:
 For more information, see:
 
 * [workflow](../general/workflow.md)
-* [reporting](../general/reporting.md)
 
-Individual reporting via. exit tickets.
-
-### Preparing the prompt
+## Working with Copilot
 
 Getting started:
 
 * Make sure that your IDE is open at the root of your project
 * Make sure you're on your own branch for lab 2. 
-* In "docs/prompts/", create these files: 
-    - "lab2-prompt.md"
-    - "prompt-log.md"
 
 ### The prompt
+
+* In "docs/prompts/", create these files: 
+    - "lab2-prompt.md"
 
 Your prompt should include context and instructions.
 For at least this first time, I will provide a prompt.
@@ -51,7 +55,7 @@ Notes / thoughts:
 * With your prompt file open, you should see a button in the lower-right with a plus sign that allows you to "Enable current file context".
     - Ask Agent to carry out the instructions in the prompt file.
 
-### Testing
+## Testing
 
 If you have any errors loading tests, you'll need to resolve them.
 
@@ -63,14 +67,32 @@ If any tests fail, you'll have to resolve the issues through a combination of
 * using a web/chat AI interface 
 * using copilot
 
+## Submission and rubric
+
+## Adding your work to Gitlab
+
+* One team member pushes the code and tests to the group repo,
+    - src/user_service/
+    - tests/user_service/
+* After all of your work is pushed to the remote repo, everyone on your team should sync their local repos:
+    - ```git pull```
+
+### Submission
+
+* Consolidate your prompts and discussion in a lab report:
+* Push the lab report to your group repo, here:
+    - docs/reports/lab1-report.md
+* More information about reporting:
+    * [reporting](../general/reporting.md)
+* Submission (Canvas):
+    - For this lab, you should submit your report.
+
 ### Rubric
 
-- individual branches
-    - pts off for individual if they don't have this
-- group solution
-    - models, tests and mapper
+- gitlab:
+    - individual branches: pts off for individual if they don't have this
+    - group solution: models, tests and mapper
 - report
     - prompt log
+    - verification / testing
     - discussion summary
-
-
