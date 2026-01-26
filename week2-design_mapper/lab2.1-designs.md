@@ -6,7 +6,15 @@
     - for this lab, you only need to do parts 2 (prompt log) and 3 (discussion summary)
 * Saving work to Gitlab:
     * Add final design document(s) in markdown (.md) or pdf to the "docs/planning/" folder.
+        - contains descriptions of entities and relationships
+        - diagram: ERD
+        - contains overview of services
+        - diagram: architecture diagrams
+            - monolithic
+            - MSA
+
     * Add your lab report to "docs/reports/" directory.
+        - in addition to regular requirements, the report should contain a link to your final design document AT THE TOP.
 * Canvas submission:
     * URL for your repo
 
