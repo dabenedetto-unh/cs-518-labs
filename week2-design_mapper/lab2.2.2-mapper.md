@@ -62,3 +62,15 @@ If any tests fail, you'll have to resolve the issues through a combination of
 * manual intervention / coding
 * using a web/chat AI interface 
 * using copilot
+
+### Rubric
+
+- individual branches
+    - pts off for individual if they don't have this
+- group solution
+    - models, tests and mapper
+- report
+    - prompt log
+    - discussion summary
+
+
