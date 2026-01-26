@@ -19,8 +19,8 @@ In order to generate the repository, copilot needs to know about:
 
 * your pydantic models (src/user_service/models.py)
 * the Mapper (src/user_service/mapper.py)
-* what DB driver you are using (pymongo; see notes)
-* what testing framework (unittest; see notes)
+* what DB driver you are using (pymongo)
+* what testing framework (unittest)
 
 With copilot, you should generate:
 

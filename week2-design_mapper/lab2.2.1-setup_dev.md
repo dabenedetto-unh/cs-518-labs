@@ -23,8 +23,9 @@ Run these commands from your terminal to set up your environment:
 * **External Requirements**: Navigate to the directory containing `requirements.txt` and run:
 `pip install -r requirements.txt`.
 *(Note: You may need to use `python -m pip` or `python3 -m pip` depending on your setup.)*
-* **Local Project Installation**: From the **project root**, install your project in editable mode so modules can be imported into your tests:
-`pip install -e .`.
+
+<!-- * **Local Project Installation**: From the **project root**, install your project in editable mode so modules can be imported into your tests:
+`pip install -e .`. -->
 
 ## 4. Configuring Tests in VS Code
 

@@ -36,31 +36,12 @@ Your prompt should include context and instructions.
 For at least this first time, I will provide a prompt.
 We will all use the same one and see how our results compare.
 
-```md
-# Context
+* [prompt](files/lab2-prompt.md)
 
-* langage: python
-* validation: pydantic
-* testing framework: unittest
+Notes / thoughts:
 
-# Instructions
-
-* Create models and a mapper for User.
-* A User has:
-    - id: str
-    - username
-    - password
-    - email 
-    - role: "admin" or "user" 
-
-# Output
-
-* src/
-    * models.py: pydantic models for User.
-    * mapper.py: maps between pydantic models and python dicts.
-* tests/
-    * test_mapper.py: unit tests for Mapper.
-```
+* Is it a good idea for this to be just one prompt?
+* It might make more sense to generate models first, and iterate on that, then use that as an input for generating the Mapper.
 
 ### Generating the code
 
