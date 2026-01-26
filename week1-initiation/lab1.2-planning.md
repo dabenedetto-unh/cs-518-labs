@@ -3,7 +3,7 @@
 In this lab, you will 
 
 * create a planning document (lab1-plans.md) that contains your vision, epics, and stories for your app idea.
-* document and report your work (lab1-reporting.md)
+* document and report your work (lab1-report.md)
 
 ## Ideation and iteration
 
@@ -16,7 +16,7 @@ In pairs or groups of 3, You will create
 
 ## Submission and rubric
 
-## Adding your work to Gitlab
+### Adding your work to Gitlab
 
 * Push the final planning document to your group repo, here:
     - docs/planning/lab1-planning.md
