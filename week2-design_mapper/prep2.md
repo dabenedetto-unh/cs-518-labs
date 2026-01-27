@@ -21,18 +21,26 @@ pip install pydantic
 
 # Database driver for Python
 pip install pymongo
-
-# Helper to fix potential SSL/Connection errors
-pip install certifi
 ```
 
 ---
 
 ## Step 2: Cloud Database Setup (MongoDB Atlas)
 
-1. **Create an Account:** Sign up for a free tier at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
-2. **Network Access:** In Atlas, go to **Security > Network Access** and add IP address `0.0.0.0/0`. This ensures you can connect from the school or home Wi-Fi.
-3. **Connection URI:** Go to **Database > Connect > Drivers** and copy your URI (starts with `mongodb+srv://`). Replace `<password>` with your database user password and save this string for the lab.
+Creating account and cluster:
+- **Create an Account:** Sign up for a free tier at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+- **Create a Cluster**  Choose the Free option and create a Deployment.
+
+Configuring user and network access
+- **Create a Db User**
+- **Configure Network Access:** Ensure that `0.0.0.0/0` is on the access list.
+- Note:
+    - You can also configure these under **Security > Database & Network Access** 
+
+Getting your connection URI:
+- **Connection URI:** Go to **Database > Clusters** and click "Connect"
+    - Then, select "Drivers" and copy the connection string (starts with `mongodb+srv://`). 
+    - Replace `<db_username>:<db_password>` with your database username and password and save this string for the lab.
 
 ---
 
