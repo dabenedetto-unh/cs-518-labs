@@ -46,8 +46,10 @@ Getting your connection URI:
 
 ## Step 3: Required Reading
 
-* **Pydantic:** Read [Basic Model Usage](https://docs.pydantic.dev/latest/concepts/models/) and **Data Conversion**. Pay attention to how Pydantic "coerces" types (e.g., turning a string `"5"` into an integer `5`).
-* **PyMongo:** Review the [PyMongo Tutorial](https://pymongo.readthedocs.io/en/stable/tutorial.html) for **CRUD** operations: **C**reate, **R**ead, **U**pdate, and **D**elete.
+* **Pydantic:** Read [Models](https://docs.pydantic.dev/latest/concepts/models/) 
+    - Read up to "Error Handling."
+* **PyMongo:** Review the [PyMongo Tutorial](https://pymongo.readthedocs.io/en/stable/tutorial.html)   
+    - Read up to "CRUD operations"
 
 ---
 
