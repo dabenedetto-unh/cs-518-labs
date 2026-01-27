@@ -1,7 +1,22 @@
-Please install the following:
+Needed for 1.1:
 
-* Python.  https://www.python.org/downloads/Links to an external site. 
 * Visual Studio Code.  https://code.visualstudio.com/downloadLinks to an external site. 
 * Git.  https://git-scm.com/downloadsLinks to an external site. 
 
-No submission required.
+Reading for 1.2:
+
+* https://www.atlassian.com/agile/project-management/epics-stories-themes
+
+Submission:
+
+* Submit your reading response to Canvas
+
+--
+
+Needed for week 2:
+
+* Python
+* Mongodb
+* python libraries:
+    - pydantic
+    - pymongo
