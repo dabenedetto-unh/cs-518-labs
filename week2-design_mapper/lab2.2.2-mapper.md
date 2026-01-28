@@ -1,26 +1,14 @@
-# Mapper
+# Models and Mapper
+
+We will create User models and a Mapper.
+The Mapper is used to convert between these models.
 
 In this lab, you will:
 
-* implement models, source code, and tests for a Mapper.
-* document and report your work (lab2_2-reporting.md)
+* implement / generate Pydantic models, a Mapper class, and tests for the Mapper.
+* document and report your work.
 
-## Workflow for individual and group work
-
-Individual work:
-
-* Individuals will work on their own branch
-    * This way, everyone can generate their own code.
-* As you go, you can push your branch to the remote regularly.
-* Carefully read and review code that you're generating.
-
-Group work:
-
-* Discuss your code with your group.
-* Choose one version to keep.
-* That student merges their branch into main and pushes main to remote
-
-For more information, see:
+There is a specific workflow to follow for labs from now on.  For more information, see:
 
 * [workflow](../general/workflow.md)
 
@@ -33,47 +21,46 @@ Getting started:
 
 ### The prompt
 
-* In "docs/prompts/", create these files: 
-    - "lab2-prompt.md"
-
-Your prompt should include context and instructions.
-For at least this first time, I will provide a prompt.
-We will all use the same one and see how our results compare.
-
-* [prompt](files/lab2-prompt.md)
-
-Notes / thoughts:
-
-* Is it a good idea for this to be just one prompt?
-* It might make more sense to generate models first, and iterate on that, then use that as an input for generating the Mapper.
+* In "docs/prompts/", create a file using a clear naming convention, e.g.: 
+    - "02_2-models_mapper.md"
+* Your prompt(s) should include at least:
+    - User fields
+    - relevant architecture details
+    - tools and testing framework
+    - output files, format, locations
+* You can find example prompts in the demo project, here:
+    - [demo project](https://gitlab.cs.unh.edu/cs518-public/spring-2026/class-demo)
 
 ### Generating the code
 
 * Open the chat panel:
     - View > Chat, OR
     - Ctrl + Alt + I
+* Select a model
+    - I got much better results when I used "Gemini 3 Flash," than using the default "Auto."  You are welcome to experiment with different models.    
 * With your prompt file open, you should see a button in the lower-right with a plus sign that allows you to "Enable current file context".
     - Ask Agent to carry out the instructions in the prompt file.
 
 ## Testing
 
-If you have any errors loading tests, you'll need to resolve them.
-
-If not:
-* Run test_user_mapper.py using the IDE integration.
-
-If any tests fail, you'll have to resolve the issues through a combination of 
-* manual intervention / coding
-* using a web/chat AI interface 
-* using copilot
+* If you have any errors loading tests, you'll need to resolve them.
+* If not:
+    * Run test_user_mapper.py using the IDE integration.
+* If any tests fail, you'll have to resolve the issues through a combination of 
+    * manual intervention / coding
+    * using a web/chat AI interface 
+    * using copilot
+    * or other means
 
 ## Submission and rubric
 
-## Adding your work to Gitlab
+* More information about workflow and reporting:
+    * [workflow](../general/workflow.md)
+    * [reporting](../general/reporting.md)
 
-* One team member pushes the code and tests to the group repo,
-    - src/user_service/
-    - tests/user_service/
+### Adding your work to Gitlab
+
+* One team member pushes the code and tests to the group repo
 * After all of your work is pushed to the remote repo, everyone on your team should sync their local repos:
     - ```git pull```
 
@@ -82,8 +69,6 @@ If any tests fail, you'll have to resolve the issues through a combination of
 * Consolidate your prompts and discussion in a lab report:
 * Push the lab report to your group repo, here:
     - docs/reports/lab1-report.md
-* More information about reporting:
-    * [reporting](../general/reporting.md)
 * Submission (Canvas):
     - For this lab, you should submit your report.
 

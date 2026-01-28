@@ -1,5 +1,18 @@
 ## Lab Workflow: Git Branching & Syncing
 
+Individual work:
+
+* Individuals will work on their own branch
+    * This way, everyone can generate their own code.
+* As you go, you can push your branch to the remote regularly.
+* Carefully read and review code that you're generating.
+
+Group work:
+
+* Discuss your code with your group.
+* Choose one version to keep.
+* That student merges their branch into main and pushes main to remote
+
 ### 1. Start of Lab: Get Ready
 
 Before you start coding, make sure you are on the `main` branch and have the latest version of the code.

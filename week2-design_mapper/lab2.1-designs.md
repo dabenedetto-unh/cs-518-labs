@@ -2,14 +2,22 @@
 
 In this lab, you will:
 
-* create a design document (lab2_1-designs.md) that contains your architectural designs for your app idea.
-* document and report your work (lab2_1-reporting.md)
+* create two design documents that will contain your finished work:
+    - docs/designs/ERD.md
+        - ERD (at top)
+        - descriptions of entities and relationships
+    - docs/designs/architecture.md
+        - architectural diagrams (modular monolith and MSA)
+        - descriptions of modules / services
 
-## Concepts / discussion
+* document and report your work (lab2_1-reporting.md)
+    * See [reporting](../general/reporting.md)
+
+<!-- ## Concepts / discussion
 
 * What is software architecture?
 * Ask AI to compare monolithic, service-oriented, and microservice architectures.
-* Discuss and document.
+* Discuss and document. -->
 
 ## Ideation
 
@@ -55,20 +63,13 @@ diagrams_out[name] = f"https://mermaid.ink/img/{base64_string}"
 * Consolidate your prompts and discussion in a lab report:
 * Push the lab report to your group repo, here:
     - docs/reports/lab1-report.md
-* More information about reporting:
-    * [reporting](../general/reporting.md)
 * Submission (Canvas):
     - For this lab, you should submit your report.
 
 ### Rubric
 
 * report
-    - prompt log
-    - discussion summary
-* design document
-    - contains descriptions of entities and relationships
-    - diagram: ERD
-    - contains overview of services
-    - diagram: architecture diagrams
-        - monolithic
-        - MSA
+    - (standard components))
+* design documents
+    - ERD and details
+    - architecture diagrams and details
