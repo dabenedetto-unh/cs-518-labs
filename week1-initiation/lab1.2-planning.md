@@ -11,6 +11,9 @@ In pairs or groups of 3, You will create
 
 * Come up with an app idea.
 * Ask AI to develop vision, epics, and user stories.  Save your prompt.
+    - one vision
+    - 3-5 epics
+    - 3-5 stories per epic
 * Discuss with your peers.
 * iterate.
 
