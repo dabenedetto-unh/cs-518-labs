@@ -36,6 +36,9 @@ Your final report must be a single consolidated document containing the followin
     * For development labs: Discussion of your solution / codebase.  What do you understand / not understand?
     * FOr both: reflections on what you've learned and your interactions with peers and AI.
 
+Note:
+    - For the prompt log: even if you do not use AI to generate your product, you should still use AI to review your product.  
+
 ## Grading Rubric
 
 * Product (5 pts. - not shown here)
