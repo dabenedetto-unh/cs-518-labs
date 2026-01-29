@@ -8,6 +8,9 @@ This guide takes you through setting up your development environment, installing
 
 ## 2. Project Structure Setup
 
+For project structure, see:
+See https://gitlab.cs.unh.edu/cs518-public/spring-2026/class-demo
+
 Before installing dependencies, ensure your project directory is organized as follows:
 
 * `src/requirements.txt`: List of external dependencies.
