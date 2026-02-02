@@ -1,5 +1,7 @@
 # Adding a Remote
 
+You can add a second remote for backup purposes.
+
 ## Instructions
 
 add remote:
@@ -12,7 +14,7 @@ push to remote:
 
 set so that a push will automatically go to both:
 
-```git remote set-url --add --push backup https://github.com/dabenedetto-unh/cs-518-labs.git```
+```git remote set-url --add --push origin https://github.com/dabenedetto-unh/cs-518-labs.git```
 
 ## etc.
 
