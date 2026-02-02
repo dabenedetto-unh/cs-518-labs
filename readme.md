@@ -13,3 +13,9 @@ push to remote:
 set so that a push will automatically go to both:
 
 ```git remote set-url --add --push backup https://github.com/dabenedetto-unh/cs-518-labs.git```
+
+## etc.
+
+list remotes:
+
+```git remote -v```
