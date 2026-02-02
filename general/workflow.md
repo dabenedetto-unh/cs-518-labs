@@ -38,8 +38,11 @@ git checkout -b your-name-task
 ```bash
 git add .
 git commit -m "Completed the logic for the lab task"
+git push
 
 ```
+
+*Git push will probably prompt you to set upstream - use that command*
 
 ### 3. End of Lab: Sharing the "Winning" Code
 
