@@ -1,6 +1,7 @@
 # Adding a Remote
 
 You can add a second remote for backup purposes.
+Testing that it works with VSCode.
 
 ## Instructions
 
