@@ -29,7 +29,8 @@ To avoid messy conflicts, **never** code directly on `main`. Create your own bra
 
 ```bash
 # Replace 'your-name' with your actual name
-git checkout -b your-name-task
+# replace 0-0 with the lab number, e.g. lab 3.1 would be lab-3-1
+git checkout -b lastname/lab-3-1
 
 ```
 
@@ -38,7 +39,7 @@ git checkout -b your-name-task
 ```bash
 git add .
 git commit -m "Completed the logic for the lab task"
-git push
+git push --set-upstream origin benedetto/lab-3-1
 
 ```
 
