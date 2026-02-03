@@ -84,3 +84,34 @@ git pull origin main
 * **Check your status:** Not sure where you are? Run `git status`.
 * **See your branches:** Run `git branch` to see which branch you are currently standing on.
 * **Stuck?** If Git says you have "Unscheduled changes," make sure you `commit` or `stash` your work before switching branches.
+
+---
+
+# Advanced
+
+---
+
+## 1. Deleting Branches
+
+Use these commands to remove branches you no longer need. Remember: you cannot delete the branch you are currently standing on.
+
+### Local Deletion
+
+* **Safe:** `git branch -d <branch_name>` (Only works if merged)
+* **Force:** `git branch -D <branch_name>` (Deletes regardless of merge status)
+
+### Remote Deletion
+
+* **Remove from Server:** `git push origin --delete <branch_name>`
+* **Clean Up Local References:** `git fetch -p` (Prunes "ghost" branches that were deleted on the remote)
+
+If you’ve made a mess of your local files and just want to match exactly what is currently on the server (the remote), you can perform a "hard reset" to the upstream branch.
+
+**Warning:** This will permanently delete any local commits or uncommitted changes you haven't pushed.
+
+---
+
+## Git reset
+
+With Git reset, you can revert to any prior state.
+If you think you may need to do this, check with your professor.
