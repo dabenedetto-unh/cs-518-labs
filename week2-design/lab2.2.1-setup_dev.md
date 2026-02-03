@@ -7,7 +7,7 @@ This guide takes you through setting up your development environment, installing
 * **GitHub Copilot Pro**: If you are a student, you can apply for GitHub Education to receive Copilot Pro at no cost.
 
 ## 2. Project Structure Setup
-
+v
 For project structure, see:
 See https://gitlab.cs.unh.edu/cs518-public/spring-2026/class-demo
 
