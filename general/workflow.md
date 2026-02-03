@@ -53,11 +53,12 @@ Once the instructor chooses a version to keep, the "chosen" student will push th
 
 ```bash
 # 1. Push your branch to the cloud
-git push origin your-name-task
+git push origin lastname/lab-x-x
 
 # 2. Move to the main branch and merge your work
+# lab-x-x is, e.g. lab-3-1 for lab3.1
 git checkout main
-git merge your-name-task
+git merge lastname/lab-x-x
 
 # 3. Update the shared repo for everyone else
 git push origin main
