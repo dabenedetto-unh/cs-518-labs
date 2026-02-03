@@ -1,6 +1,7 @@
 # Adding a remote
 
 You can add a second remote for backup purposes.
+Test both.
 
 ## Getting started
 
@@ -8,6 +9,8 @@ You can add a second remote for backup purposes.
 * Create a repository (you can keep all the defaults)
 
 ## Instructions
+
+Replace the URLs below with your GitLab and GitHub urls, respectively.
 
 add remote:
 
@@ -26,3 +29,7 @@ set so that a push will automatically go to both:
 list remotes:
 
 ```git remote -v```
+
+if the only push url for origin is your github url, you'll have to add the gitlab url back:
+
+```git remote set-url --add --push origin git@gitlab.cs.unh.edu:cs518-public/spring-2026/labs-ai-first.git```
