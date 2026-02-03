@@ -11,13 +11,21 @@ This guide takes you through setting up your development environment, installing
 For project structure, see:
 See https://gitlab.cs.unh.edu/cs518-public/spring-2026/class-demo
 
-Before installing dependencies, ensure your project directory is organized as follows:
+Before moving on, 
+* ensure that your project repo has the files below
+* **IMPORTANT:** Make sure that the remote (on Gitlab) has these files, and everyone's local repos are synced to the remote.
 
-* `src/requirements.txt`: List of external dependencies.
-* `src/user_service/hello.py`: Your primary service logic.
-* `pyproject.toml`: Project configuration file located in the root.
-* `tests/test_hello.py`: Unit tests that import `user_service.hello`.
-* **Note**: Ensure you include `__init__.py` files in your package and test directories to make them discoverable.
+### for project setup
+
+* `/requirements.txt`: List of external dependencies.
+* `/pyproject.toml`: Project configuration file located in the root.
+
+### for testing setup
+
+* `src/class_demo/user_service/hello.py`: Basic file for testing
+* `tests/user_service/test_hello.py`: Unit tests that import `user_service.hello`.
+
+**Note**: Ensure you include `__init__.py` files in your package and test directories to make them discoverable.
 
 ## 3. Installing Dependencies
 
@@ -27,8 +35,8 @@ Run these commands from your terminal to set up your environment:
 `pip install -r requirements.txt`.
 *(Note: You may need to use `python -m pip` or `python3 -m pip` depending on your setup.)*
 
-<!-- * **Local Project Installation**: From the **project root**, install your project in editable mode so modules can be imported into your tests:
-`pip install -e .`. -->
+* **Local Project Installation**: From the **project root**, install your project in editable mode so modules can be imported into your tests:
+`pip install -e .`.
 
 ## 4. Configuring Tests in VS Code
 
