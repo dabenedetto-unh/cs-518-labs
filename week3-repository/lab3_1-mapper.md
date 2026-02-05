@@ -17,12 +17,12 @@ There is a specific workflow to follow for labs from now on.  For more informati
 Getting started:
 
 * Make sure that your IDE is open at the root of your project
-* Make sure you're on your own branch for lab 2. 
+* Make sure you're on your own branch this lab. 
 
 ### The prompt
 
 * In "docs/prompts/", create a file using a clear naming convention, e.g.: 
-    - "02_2-models_mapper.md"
+    - "03-models_mapper.md"
 * Your prompt(s) should include at least:
     - User fields
     - relevant architecture details
@@ -68,7 +68,7 @@ Getting started:
 
 * Consolidate your prompts and discussion in a lab report:
 * Push the lab report to your group repo, here:
-    - docs/reports/lab1-report.md
+    - docs/reports/lab3-report.md
 * Submission (Canvas):
     - For this lab, you should submit your report.
 

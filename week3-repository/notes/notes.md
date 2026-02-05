@@ -18,6 +18,7 @@
         - UserUpdate
         - User - domain model
         - UserDocument - represents a record in DB
+            - why isn't this inheriting from UserBase?
     - missing?
         - UserOut (*)
 
