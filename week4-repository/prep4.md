@@ -1,6 +1,6 @@
-# Prep: Pydantic & MongoDB
+(note for spring 2026 - This was already completed as part of the prep2)
 
-This assignment prepares you for the upcoming lab by setting up your data validation tools (**Pydantic**) and your database environment (**MongoDB**).
+# Prep: Pymongo and MongoDB
 
 ## Step 1: Software Installation
 
@@ -16,9 +16,6 @@ You must install the database software locally and the Python libraries via the 
 Open your terminal or command prompt and run:
 
 ```bash
-# Data validation (may already be installed from last week)
-pip install pydantic
-
 # Database driver for Python
 pip install pymongo
 ```
@@ -44,21 +41,15 @@ Getting your connection URI:
 
 ---
 
-## Step 3: Required Reading
+## Required Reading
 
-* **Pydantic:** Read [Models](https://docs.pydantic.dev/latest/concepts/models/) 
-    - Read up to "Error Handling."
 * **PyMongo:** Review the [PyMongo Tutorial](https://pymongo.readthedocs.io/en/stable/tutorial.html)   
     - Read up to "CRUD operations"
 
+* When you do the reading, run the examples and take notes.
+
 ---
 
-## Step 4: Submission Requirements
+## Submission Requirements
 
-Your response should be **150 to 300 words** (roughly 2–3 short paragraphs) and submitted to Canvas.
-
-### Components:
-
-1. **The Pivot (50–75 words):** Identify one specific concept from the reading (like Pydantic's automatic validation or NoSQL document storage) and explain how it differs from how you previously thought about coding.
-2. **The Technical Connection (50–75 words):** How does this concept apply to the upcoming lab? Specifically, how will Pydantic models help us manage the data we save into MongoDB?
-3. **The Blocker (25–50 words):** What is one specific question or "muddiest point" you want addressed before the lab starts?
+Same requirements as last time.
