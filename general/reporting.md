@@ -1,27 +1,15 @@
 # Group Lab Reporting & Submission Guide
 
-## Submission Overview
+In general, labs will consist of:
 
-To complete your labs, you must submit your work to two locations:
+* Individually completed work, followed by
+* Group review, discussion, and synthesis.
 
-* **GitLab Repository:** 
-    - All source code, tests, in `/src/` folder
-    - and a copy of the report in the `/docs` folder.
-* **Canvas:** The consolidated lab report document.
-    * *Note: For Lab 1, submit your repository URL. For Lab 2 and beyond, submit the document itself.*
+The lab report will be a group submission, with individual components in appendices.
 
-## Product
+## The Lab Report - Overview
 
-Planning and design labs:
-* Submit your documents to 'docs' directory
-
-Development labs:
-* **Source Code:** Must be submitted to the `src` directory (in the appropriate subdirectory).
-* **Tests:** Must be submitted to the `tests` directory (in the appropriate subdirectory).
-
-## Process:  The Lab Report
-
-### Main report - OUTLINE
+### Outline
 
 * Participants
     * List all team members who contributed.
@@ -39,7 +27,6 @@ Development labs:
 * Etc.
 
 ## Additional information
-
 
 ### CODE REVIEW
 
@@ -78,7 +65,27 @@ For each individual:
     - use of AI
     - What do you understand / not understand?
 
-## Grading Rubric
+## Submission and Rubric
+
+### Submission
+
+Planning and design labs:
+
+* Add your documents to `/docs/planning/` directory in Gitlab.
+* Submit your documents to Canvas.
+
+Code labs:
+
+* Code and tests:
+    - All source code should be in `/src/` folder
+    - All tests should be in `/tests/` folder
+* Lab report:
+    - Add the lab report to the `/docs/reports/` folder.
+    - Submit the lab report to Canvas.
+
+Code and tests should be in the appropriate subdirectory.
+
+### Grading Rubric
 
 * Product (5 pts.)
 * Review (10 pts.)
