@@ -4,7 +4,9 @@
 
 To complete your labs, you must submit your work to two locations:
 
-* **GitLab Repository:** All source code, tests, and a copy of the report in the `/docs` folder.
+* **GitLab Repository:** 
+    - All source code, tests, in `/src/` folder
+    - and a copy of the report in the `/docs` folder.
 * **Canvas:** The consolidated lab report document.
     * *Note: For Lab 1, submit your repository URL. For Lab 2 and beyond, submit the document itself.*
 
@@ -19,37 +21,67 @@ Development labs:
 
 ## Process:  The Lab Report
 
-Your final report must be a single consolidated document containing the following:
-(how did you create the code; how do you know it works; discussion / reflections)
+### Main report - OUTLINE
 
-### PLANNING
+* Participants
+    * List all team members who contributed.
+* Review (product-oriended)
+    * Summary of work completed - (i.e. features developed)
+    * Summary of code / testing (i.e. tracing)
+* Retrospective (process-oriented)
+    * Use of AI
+    * Summary of collaboration
 
-* please include your notes on what you need to do for this lab.
-* come up with a plan for your work.
+### Appendices
 
-### USE OF AI 
+* Team member 1 tracing / notes
+* Team member 2
+* Etc.
 
-* Please describe how you used AI., include at least:
-    - tools (e.g. chat, VS code integration, etc.)
-    - models
-* Your prompt summary in the report should NOT include full prompts and responses. (although you may choose to include those somewhere in your repo), but should include:
-    * *Initial Prompt:* The very first prompt used.
-    * *Iterations:* Revisions or follow-up prompts.
-- For the prompt log: even if you do not use AI to generate your product, you should still use AI to review your product.
-    
-### CODE REVIEW & DISCUSSION
+## Additional information
+
+
+### CODE REVIEW
 
 * For planning and design labs.  
     - review your finished product and summarize your discussions.
-    - What additional research have you conducted to validate your plans and designs?
+
 * For development labs: 
-    - Trace the tests and code. 
-    - Summary of tests and results.  What is tested / not tested?
-    - What do you understand / not understand?
+    - individual code review goes in appendices (below)
+    - group code review goes here
+        - include code review for selected version
+        - you do not need to duplicate the selected version in appendices.
+
+### RETROSPECTIVE
+
+Selection of "winner":
+
+    - Comparison of individual code.
+    - selection of "winner" and rationale for selection.
+
+USE OF AI:
+
+* Please describe how AI was used for the selected version.  Include at least:
+    - tools (e.g. chat, VS code integration, etc.)
+    - models
+* Your prompt summary in the report should NOT include full prompts and responses, but should include:
+    * Summary of initial prompt and result.
+    * Summary of follow-up actions (prompts, manual edits, etc.) and rationale.
+- Even if you do not use AI to generate your product, you should still use AI to review your product.
+    
+### Appendices
+
+* for each individual:
+    - code review
+        - review your own generated code
+    - Retrospective 
+        - use of AI
+        - What do you understand / not understand?
 
 ## Grading Rubric
 
-* Product (5 pts. - not shown here)
-* Prompt Evolution Log (5 pts.)
-* Testing / Verification (5 pts.)
-* Group Discussion Synthesis (5 pts.)
+* Product (5 pts.)
+* Review (10 pts.)
+* Retrospective (5 pts.)
+* Appendices
+    - included in "individual" assignment grade
