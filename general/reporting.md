@@ -45,7 +45,6 @@ Development labs:
 
 * For planning and design labs.  
     - review your finished product and summarize your discussions.
-
 * For development labs: 
     - individual code review goes in appendices (below)
     - group code review goes here
@@ -56,8 +55,8 @@ Development labs:
 
 Selection of "winner":
 
-    - Comparison of individual code.
-    - selection of "winner" and rationale for selection.
+- Comparison of individual code.
+- selection of "winner" and rationale for selection.
 
 USE OF AI:
 
@@ -71,12 +70,13 @@ USE OF AI:
     
 ### Appendices
 
-* for each individual:
-    - code review
-        - review your own generated code
-    - Retrospective 
-        - use of AI
-        - What do you understand / not understand?
+For each individual:
+
+- code review
+    - review your own generated code
+- Retrospective 
+    - use of AI
+    - What do you understand / not understand?
 
 ## Grading Rubric
 
