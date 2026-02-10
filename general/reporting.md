@@ -1,55 +1,97 @@
 # Group Lab Reporting & Submission Guide
 
-## Submission Overview
+In general, labs will consist of:
 
-To complete your labs, you must submit your work to two locations:
+* Individually completed work, followed by
+* Group review, discussion, and synthesis.
 
-* **GitLab Repository:** All source code, tests, and a copy of the report in the `/docs` folder.
-* **Canvas:** The consolidated lab report document.
-    * *Note: For Lab 1, submit your repository URL. For Lab 2 and beyond, submit the document itself.*
+The lab report will be a group submission, with individual components in appendices.
 
-## Product
+## The Lab Report - Overview
+
+### Outline
+
+* Participants
+    * List all team members who contributed.
+* Review (product-oriended)
+    * Summary of work completed - (i.e. features developed)
+    * Summary of code / testing (i.e. tracing)
+* Retrospective (process-oriented)
+    * Use of AI
+    * Summary of collaboration
+
+### Appendices
+
+* Team member 1 tracing / notes
+* Team member 2
+* Etc.
+
+## Submission and Rubric
+
+### Submission
 
 Planning and design labs:
-* Submit your documents to 'docs' directory
 
-Development labs:
-* **Source Code:** Must be submitted to the `src` directory (in the appropriate subdirectory).
-* **Tests:** Must be submitted to the `tests` directory (in the appropriate subdirectory).
+* Add your documents to `/docs/planning/` directory in Gitlab.
+* Submit your documents to Canvas.
 
-## Process:  The Lab Report
+Code labs:
 
-Your final report must be a single consolidated document containing the following:
-(how did you create the code; how do you know it works; discussion / reflections)
+* Code and tests:
+    - All source code should be in `/src/` folder
+    - All tests should be in `/tests/` folder
+* Lab report:
+    - Add the lab report to the `/docs/reports/` folder.
+    - Submit the lab report to Canvas.
 
-### PLANNING
+Code and tests should be in the appropriate subdirectory.
 
-* please include your notes on what you need to do for this lab.
-* come up with a plan for your work.
+### Grading Rubric
 
-### USE OF AI 
+* Product (5 pts.)
+* Review (10 pts.)
+* Retrospective (5 pts.)
+* Appendices
+    - included in "individual" assignment grade
 
-* Please describe how you used AI., include at least:
-    - tools (e.g. chat, VS code integration, etc.)
-    - models
-* Your prompt summary in the report should NOT include full prompts and responses. (although you may choose to include those somewhere in your repo), but should include:
-    * *Initial Prompt:* The very first prompt used.
-    * *Iterations:* Revisions or follow-up prompts.
-- For the prompt log: even if you do not use AI to generate your product, you should still use AI to review your product.
-    
-### CODE REVIEW & DISCUSSION
+---
+
+## Additional information
+
+### CODE REVIEW
 
 * For planning and design labs.  
     - review your finished product and summarize your discussions.
-    - What additional research have you conducted to validate your plans and designs?
 * For development labs: 
-    - Trace the tests and code. 
-    - Summary of tests and results.  What is tested / not tested?
+    - individual code review goes in appendices (below)
+    - group code review goes here
+        - include code review for selected version
+        - you do not need to duplicate the selected version in appendices.
+
+### RETROSPECTIVE
+
+Selection of "winner":
+
+- Comparison of individual code.
+- selection of "winner" and rationale for selection.
+
+USE OF AI:
+
+* Please describe how AI was used for the selected version.  Include at least:
+    - tools (e.g. chat, VS code integration, etc.)
+    - models
+* Your prompt summary in the report should NOT include full prompts and responses, but should include:
+    * Summary of initial prompt and result.
+    * Summary of follow-up actions (prompts, manual edits, etc.) and rationale.
+- Even if you do not use AI to generate your product, you should still use AI to review your product.
+    
+### Appendices
+
+For each individual:
+
+- code review
+    - review your own generated code
+- Retrospective 
+    - use of AI
     - What do you understand / not understand?
 
-## Grading Rubric
-
-* Product (5 pts. - not shown here)
-* Prompt Evolution Log (5 pts.)
-* Testing / Verification (5 pts.)
-* Group Discussion Synthesis (5 pts.)
