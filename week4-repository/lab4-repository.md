@@ -9,7 +9,9 @@
 
 ## About the repository
 
-The Repository interfaces with the database.
+See the sample prompt in the demo-project
+
+<!-- The Repository interfaces with the database.
 
 * Its methods take and return pydantic model objects (e.g. User)
 * It uses the Mapper to convert between pydantic objects and dict-like objects.
@@ -28,7 +30,7 @@ With copilot, you should generate:
 
 * src/user_service/repository.py - defined the Repository class
 * src/user_service/exceptions.py - defines custom exceptions
-* tests/test_user_service/test_repository.py - unit tests for Repository
+* tests/test_user_service/test_repository.py - unit tests for Repository -->
 
 ## Submission and rubric
 
