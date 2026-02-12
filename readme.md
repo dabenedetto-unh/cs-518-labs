@@ -1,35 +1,22 @@
-# Adding a remote
+Notes:
 
-You can add a second remote for backup purposes.
-Test both.
+* The majority of documents have been moved elsewhere.
 
-## Getting started
+## Lab docs
 
-* Add your SSH keys to GitHub
-* Create a repository (you can keep all the defaults)
+Moved to Google Drive:
 
-## Instructions
+- [Table of contents](https://docs.google.com/spreadsheets/d/1ufkubeSfXkeXWs4JObsmitGxEIoxnz1U9vyKoBFZ9nU/edit?usp=sharing)
+- [Folder](https://drive.google.com/drive/u/0/folders/19UAh-iKiXt3nt3CmPjXRh3z_US8YuASH)
 
-Replace the URLs below with your GitLab and GitHub urls, respectively.
+In general, you can find links directly to the relevant docs on Canvas.
 
-add remote:
+## Sample project and prompts
 
-```git remote add backup https://github.com/dabenedetto-unh/cs-518-labs.git```
+These are in another repo, here:
 
-push to remote:
+* [Class Demo on GitLab](https://gitlab.cs.unh.edu/cs518-public/spring-2026/class-demo/-/tree/main/src/class_demo?ref_type=heads)
 
-```git push backup```
+## What you can find here
 
-set so that a push will automatically go to both:
-
-```git remote set-url --add --push origin https://github.com/dabenedetto-unh/cs-518-labs.git```
-
-## Etc.
-
-list remotes:
-
-```git remote -v```
-
-if the only push url for origin is your github url, you'll have to add the gitlab url back:
-
-```git remote set-url --add --push origin git@gitlab.cs.unh.edu:cs518-public/spring-2026/labs-ai-first.git```
+* Tutorials contains code tutorials
