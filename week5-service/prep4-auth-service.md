@@ -1,4 +1,8 @@
-## Security concepts
+Prep information has been added to the Canvas assignment:
+
+* [Week 4 prep](https://mycourses.unh.edu/courses/144434/assignments/1420778?module_item_id=4126863)
+
+<!-- ## Security concepts
 
 Read most of this:
 
@@ -21,4 +25,4 @@ This reading is lengthy, so you can just focus on some key concepts:
 
 ## Response
 
-* standard response
+* standard response -->
