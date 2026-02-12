@@ -2,6 +2,12 @@ Notes:
 
 * The majority of documents have been moved elsewhere.
 
+## Prep assignments
+
+In general, these will be added directly to Canvas assignments, but you can also find them here:
+
+- [Prep assignments](https://docs.google.com/document/d/1v90frK8OpFDc5uYlfMGTDyb0-ozIhdPHFogy0LgDuG0/edit?tab=t.0)
+
 ## Lab docs
 
 Moved to Google Drive:
@@ -17,6 +23,7 @@ These are in another repo, here:
 
 * [Class Demo on GitLab](https://gitlab.cs.unh.edu/cs518-public/spring-2026/class-demo/-/tree/main/src/class_demo?ref_type=heads)
 
-## What you can find here
+## What you can still find here
 
-* Tutorials contains code tutorials
+* [Tutorials](./tutorials/) 
+    - contains tutorials for tools that we'll be using
